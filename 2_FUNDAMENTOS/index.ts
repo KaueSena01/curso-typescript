@@ -39,3 +39,12 @@ let ann: string = "Teste"
 
 let inf = "Teste"
 
+// 5 - converter tipos
+const n1: number = 10
+
+const numberToString = n1.toString()
+
+const printMyNumber = `Eu vou imprimir o número: ${numberToString}`
+
+console.log(printMyNumber)
+

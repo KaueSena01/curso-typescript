@@ -1,24 +1,28 @@
-"use strict";
 // 1 - numbers
-let x = 10;
+var x = 10;
 console.log(x);
 console.log(typeof x);
-const y = 15.983535703;
+var y = 15.983535703;
 console.log(typeof y);
 console.log(y);
 console.log(y.toPrecision(3));
 // 2 - string
-const firstName = "Kauê";
+var firstName = "Kauê";
 console.log(firstName.toUpperCase());
-let fullName;
-const lastName = "Sena";
+var fullName;
+var lastName = "Sena";
 fullName = firstName + " " + lastName;
 console.log(fullName);
 console.log(typeof fullName);
 // 3 - boolean
-let a = false;
+var a = false;
 console.log(a);
 console.log(typeof a);
 // 4 - inference e annotation
-let ann = "Teste";
-let inf = "Teste";
+var ann = "Teste";
+var inf = "Teste";
+// 5 - converter tipos
+var n1 = 10;
+var numberToString = n1.toString();
+var printMyNumber = "Eu vou imprimir o n\u00FAmero: ".concat(numberToString);
+console.log(printMyNumber);
